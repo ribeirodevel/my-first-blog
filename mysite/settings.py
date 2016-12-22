@@ -32,7 +32,7 @@ SECRET_KEY = ')-^x2btkwa5y02*2+$sb5wmw8s3z#@i*r0^$l$_^e3l7p^m6@q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ribeiro1.pythonanywhere.com']
 
 
 # Application definition
@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles', 
 	'blog', 
 	'twitter_bootstrap',
+	
 ]
 
 MIDDLEWARE = [
@@ -164,3 +165,4 @@ PIPELINE_JS = {
 PIPELINE_COMPILERS = (
     'pipeline.compilers.less.LessCompiler',
 )
+
